@@ -1,16 +1,16 @@
 
-
+number_of_decks=1
 deck = {
-    1: 4,
-    2: 4,
-    3: 4,
-    4: 4,
-    5: 4,
-    6: 4,
-    7: 4,
-    8: 4,
-    9: 4,
-    10: 16, }
+    1: 4*number_of_decks,
+    2: 4*number_of_decks,
+    3: 4*number_of_decks,
+    4: 4*number_of_decks,
+    5: 4*number_of_decks,
+    6: 4*number_of_decks,
+    7: 4*number_of_decks,
+    8: 4*number_of_decks,
+    9: 4*number_of_decks,
+    10: 16*number_of_decks, }
 
 
 def updated_deck(array_of_cards):
